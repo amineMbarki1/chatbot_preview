@@ -1,0 +1,19 @@
+<script>
+  window.machineDefinition = JSON.parse(
+    `{"types":{"events":{}},"context":{"type":"entry","messages":[],"thinking":false,"triggers":[],"params":[]},"states":{"1":{"on":{"start":{"target":"VabVi0CKvCh1BKf-o7MUu","internal":false}}},"VabVi0CKvCh1BKf-o7MUu":{"initial":"idle","states":{"idle":{"on":{"send_message":{"target":"send_message","internal":false},"receive_message":{"target":"receive_message","internal":false}}},"send_message":{"after":{"700":{"actions":[{"type":"setTriggerMessage"}],"target":"idle"}},"entry":{"type":"thinking"}},"receive_message":{"entry":[{"type":"setUserMessage"}],"always":[{"target":"idle"}]}},"after":{"500":{"actions":{"type":"setBotMessage","params":{"message":{"id":"mrdIW3zT8eIl1AJB5nQyN","stateId":"VabVi0CKvCh1BKf-o7MUu","type":"cardSelection","cardsList":[{"id":"-h8snAP7E9FU_W8xGo1II","image":"https://firebasestorage.googleapis.com/v0/b/chatbot-eda13.appspot.com/o/uploads%2Fimage.png?alt=media&token=663f0bba-9d9f-4ea8-a5c8-26185d62ff94","options":[{"id":"7--ShKKC7sllSbghCNiIM","name":"star rating","nextAction":"nEcFAmjJHnu9v1caLP3WD"},{"id":"nuAbH-QAcqLmZgme2cPMP","name":"","nextAction":""}],"text":"Hello this is a card","title":"This is a card"}]}}}}},"entry":{"type":"thinking"},"on":{"7--ShKKC7sllSbghCNiIM":"nEcFAmjJHnu9v1caLP3WD","nuAbH-QAcqLmZgme2cPMP":""}},"nEcFAmjJHnu9v1caLP3WD":{"initial":"idle","states":{"idle":{"on":{"send_message":{"target":"send_message","internal":false},"receive_message":{"target":"receive_message","internal":false}}},"send_message":{"after":{"700":{"actions":[{"type":"setTriggerMessage"}],"target":"idle"}},"entry":{"type":"thinking"}},"receive_message":{"entry":[{"type":"setUserMessage"}],"always":[{"target":"idle"}]}},"entry":{"type":"thinking"},"after":{"500":{"actions":{"type":"setBotMessage","params":{"message":{"type":"starRating","id":"KQS0r5FFhbfhp4C7X5nFa","stateId":"nEcFAmjJHnu9v1caLP3WD","text":"Hello sir ","label":"Star Rating","rating":0,"level":5}}}}},"on":{}}},"initial":"1","id":"root","on":{"1start":{"target":".VabVi0CKvCh1BKf-o7MUu","internal":false},"VabVi0CKvCh1BKf-o7MUu7--ShKKC7sllSbghCNiIM":".nEcFAmjJHnu9v1caLP3WD","VabVi0CKvCh1BKf-o7MUunuAbH-QAcqLmZgme2cPMP":".","set_param_value":{"actions":[{"type":"setParamValue"},{"type":"goToNext"}]}}}`
+  );
+  window.design = JSON.parse(
+    `{"name":"My chatbot","avatar":{"src":"/_next/static/media/Bot.ae91dff6.png","size":40},"description":"My cutesy bot","botChatBubble":{"bgColor":"#e6e6e6"},"userChatBubble":{"bgColor":"#e6e6e6"},"userChatBubbleColor":"#07338c","headerBgColor":"rgb(238 146 179)","containerBg":"#fff","borderRadius":{"bottomRight":0,"bottomLeft":0,"topLeft":0,"topRight":0}}`
+  );
+</script>
+
+<script
+  type="module"
+  crossorigin
+  src="https://aminembarki1.github.io/testing/index-CDEcK16Q.js"
+></script>
+<link
+  rel="stylesheet"
+  crossorigin
+  href="https://aminembarki1.github.io/testing/index-DKxcjSf1.css"
+/>

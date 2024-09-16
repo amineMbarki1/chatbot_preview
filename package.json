@@ -9,11 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@types/emoji-mart": "^3.0.14",
     "@types/lodash": "^4.17.7",
     "@xstate/react": "^4.1.1",
+    "emoji-mart": "^5.6.0",
+    "emoji-picker-react": "^4.12.0",
     "lodash": "^4.17.21",
     "nanoid": "^5.0.7",
     "preact": "^10.23.1",
+    "react-twemoji-picker": "github:brianhung/emojipicker",
+    "tailwind-merge": "^2.5.2",
     "xstate": "^5.17.4"
   },
   "devDependencies": {
